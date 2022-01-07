@@ -2,15 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><!DOCTYPE HTML>
-        <html lang="en">
-        <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="keywords" content="">
-        <meta name="description" content="">
-        <title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+    <title>CarForYou - Responsive Car Dealer HTML5 Template</title>
     <!--Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
     <!--Custome Style -->
@@ -152,9 +144,12 @@
                         <label>Trip type:</label>
                         <div class="select">
                             <select class="form-control">
-                                <option value="">Select Location</option>
-                                <option value="">Location 1</option>
-                                <option value="">Location 1</option>
+                                <option value="one_way_to_airport">One-way TO Airport</option>
+                                <option value="one_way_from_airport">One-way FROM Airport</option>
+                                <option value="round_trip_airport">Round trip involving Airport</option>
+                                <option value="one_way_no_airport">One-way trip NOT involving Airport</option>
+                                <option value="round_trip_no_airport">Round trip NOT involving Airport</option>
+                                <option value="hourly">Hourly/multi-stop/tours</option>
                             </select>
                         </div>
                     </div>
@@ -162,11 +157,9 @@
                         <label>Pickup:</label>
                         <div class="select">
                             <select class="form-control">
-                                <option>Select Brand</option>
-                                <option>Audi</option>
-                                <option>BMW</option>
-                                <option>Nissan</option>
-                                <option>Toyota</option>
+                                <option value="NY">New York</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="CT">Connecticut</option>
                             </select>
                         </div>
                     </div>
@@ -174,10 +167,22 @@
                         <label>Dropoff: </label>
                         <div class="select">
                             <select class="form-control">
-                                <option>Select Model</option>
-                                <option>Series 1</option>
-                                <option>Series 2</option>
-                                <option>Series 3</option>
+                                <option value="JFK - New York JFK International Airport" selected="selected">JFK - NY
+                                    JFK Int'l Airport
+                                </option>
+                                <option value="LGA - New York La Guardia Airport">LGA - New York La Guardia Airport
+                                </option>
+                                <option value="EWR - Newark International Airport">EWR - Newark International Airport
+                                </option>
+                                <option value="ISP - Long Island Islip Macarthur Airport">ISP - Long Island Islip
+                                    Macarthur Airport
+                                </option>
+                                <option value="FRG - Republic Airport Farmingdale NY">FRG - Republic Airport Farmingdale
+                                    NY
+                                </option>
+                                <option value="HPN - Westchester County Airport">HPN - Westchester County Airport
+                                </option>
+                                <option value="TEB - Teterboro, NJ Airport">TEB - Teterboro, NJ Airport</option>
                             </select>
                         </div>
                     </div>
