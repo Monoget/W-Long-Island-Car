@@ -1169,9 +1169,9 @@ nav.navbar {
 .looking-car span {
   font-weight: 300;
 }
-.looking-car-content {
+/*.looking-car-content {
   width: 60%;
-}
+}*/
 .looking-cat-image {
   position: absolute;
   right: -120px;
@@ -1183,7 +1183,7 @@ nav.navbar {
   font-weight: 400;
   line-height: 20px;
   margin-bottom: 26px;
-  width: 85%;
+/*  width: 85%;*/
 }
 .looking-cat-image img {
 	max-width:100%;
